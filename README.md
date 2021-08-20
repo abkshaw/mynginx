@@ -3,13 +3,13 @@
 
 #Run Docker build command 
 #Give your own reponame which you have in Docker Hub
-  docker build -t <yourreponame>/project:1.0.0 .
+  #docker build -t <yourreponame>/project:1.0.0 .
   
 #Push the Docker Image to DockerHub
-  docker push <yourreponame>/project:1.0.0 .
+  #docker push <yourreponame>/project:1.0.0 .
   
 #Run kubernetes Deployment
-  Run Kubectl create -f microservice.yaml
+  #Run Kubectl create -f microservice.yaml
   
 
   
