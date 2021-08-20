@@ -27,6 +27,6 @@ spec:
     spec:
       containers:
       - name: myimage
-        image: project:1.0.0
+        image: <yourreponame>/project:1.0.0
         ports:
         - containerPort: 5000
