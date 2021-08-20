@@ -10,5 +10,6 @@ docker push <yourreponame>/project:1.0.0 .
   
 #Run kubernetes Deployment
 Run Kubectl create -f microservice.yaml
+  
 
   
